@@ -100,3 +100,4 @@ try:
 except:
 	print('something went wrong')
 
+os.system('sudo service squid restart')
