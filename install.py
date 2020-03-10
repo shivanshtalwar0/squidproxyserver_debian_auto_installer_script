@@ -71,7 +71,7 @@ http_access allow localhost
 http_access allow all
 
 # Squid normally listens to port 3128
-http_port 3128
+http_port 8406
 
 # Uncomment and adjust the following to add a disk cache directory.
 #cache_dir ufs /var/spool/squid 100 16 256
