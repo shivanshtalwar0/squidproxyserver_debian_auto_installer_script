@@ -99,5 +99,7 @@ try:
 		f.write(data)
 except:
 	print('something went wrong')
-
+print("starting squid server")
 os.system('sudo service squid start')
+print("Restarting squid server to reload configuration.")
+os.system('sudo service squid restart')
